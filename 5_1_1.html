@@ -3,6 +3,7 @@
 
 <head>
     <link href="5_1.css" rel="stylesheet">
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,17 +11,26 @@
 </head>
 
 <body>
-    <div>
+    <div id="top">
         <img src="https://www.instagram.com
 /static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png" />
         <input type="text" value="검색" />
+        <div>
+            <i class="fas fa-home"></i>
+            <i class="far fa-paper-plane"></i>
+            <i class="far fa-compass"></i>
+            <i class="far fa-heart"></i>
+        </div>
+
     </div>
     <div id="profile">
-        <img src="img/profile.jpg" width="50" />
-        <div>
-            <h2>half_bottle</h2>
+        <div id="profile_pic">
+            <img class="circle_pic" src="img/profile.jpg" />
         </div>
-        <div>
+        <div id="profile_info">
+            <div id="id">half_bottle
+                <i class="fas fa-cog"></i>
+            </div>
             <button>프로필 편집</button>
         </div>
     </div>
@@ -32,25 +42,31 @@
                 </strong><br> 작가
         </p>
         <p>
-            <a herf="http://needleworm.github.io">needleworm.github.io </a>
+            <a herf="http://needleworm.github.io">needleworm.github.io</a>
         </p>
     </div>
-    <div>
-        <div>
-            <img src="img/h1.jpg" height="35px">
-        </div>
-        <div>
-            😊
-        </div>
-        <div>
-            <img src="img/h2.jpg" height="35px">
-        </div>
-        😘
-        <div>
 
+    <div id="hightlight_area">
+        <div class="highlight">
+            <div id="highlight_pic">
+                <img class="circle_pic" src="img/h1.jpg" />
+            </div>
+            <div>
+                😊
+            </div>
         </div>
-
+        <div class="highlight">
+            <div id="highlight_pic">
+                <img class="circle_pic" src="img/h2.jpg" />
+            </div>
+            <div>
+                😘
+            </div>
+        </div>
+        <div></div>
     </div>
+
+
     <div id="stat_bar">
         <div class="stat">
             게시물<br> 133
@@ -62,7 +78,19 @@
             팔로우<br> 189
         </div>
     </div>
-    <div>아이콘이 들어갈 자리</div>
+    <div id="sub_icons">
+        <div class="selected">
+            <i class="fas fa-border-all"></i>
+        </div>
+        <div><i class="fas fa-film"></i>
+        </div>
+        <div><i class="far fa-play-circle"></i>
+        </div>
+        <div><i class="far fa-bookmark"></i>
+        </div>
+        <div><i class="fas fa-user-tag"></i>
+        </div>
+    </div>
     <div>
         <div class="thumbnail_grid">
             <img src="img/thumbnail/1.jpg" width="32%">
@@ -79,6 +107,8 @@
             <img src="img/thumbnail/8.jpg" width="32%">
             <img src="img/thumbnail/9.jpg" width="32%">
         </div>
+    </div>
+    </div>
     </div>
 </body>
 
